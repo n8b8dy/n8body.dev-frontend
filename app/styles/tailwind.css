@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: #e5e5e5;
+    border: 1px solid #d4d4d4;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  }
+  *::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #262626;
+  }
+
+  html {
+    font-family: Roboto, system-ui, sans-serif;
+  }
+}
