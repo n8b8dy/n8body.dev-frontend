@@ -84,16 +84,16 @@ export default function Home() {
         <Heading>About me</Heading>
         <Paragraph>
           Hello, {ip || <span className="animate-pulse bg-neutral-600 text-transparent rounded">00.000.00.000</span>},
-          thanks for visiting my personal website. I'm just a student interested in programming and engineering.
+          thanks for visiting my personal website. I'm an ambitious student interested in programming and engineering.
           I specialize in front-end development on React with all the ensuing technologies.
           In the future, I plan to try my hand at back-end development as well.
           If there is something you would like to discuss,
-          don't hesitate to get in touch with me (see below).
+          don't hesitate to get in touch with me (see for links below).
         </Paragraph>
 
         <Heading>Website</Heading>
         <Paragraph>
-          The site was written by me in 3 days using Typescript, React, Remix and Tailwind, then deployed using Docker.
+          The first version of the site was coded by me in 3 days using Typescript, React, Remix and Tailwind, then deployed using Docker.
           There are several easter eggs in it. You can try to look for them yourself...
           or simply see them all in the code, which can be found on my <Link href="https://github.com/n8b8dy">Github</Link>
         </Paragraph>
@@ -104,6 +104,7 @@ export default function Home() {
             manga.ovh - <i>the best</i> website for reading manga
           </li>
           <li>n8body’s helper - my personal telegram bot</li>
+          <li>...and some more are being developed right now</li>
         </BulletList>
         <Heading>Contacts</Heading>
         <BulletList>
